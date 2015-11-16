@@ -1,1 +1,8 @@
-go get /github.com/maigoxin/snowflake
+how to get
+go get github.com/maigoxin/snowflake
+
+how to run
+go run snowflake.go  --port=9010 --debug --center=0 --worker=0 --twepoch=0
+
+how to use
+curl http://127.0.0.1:9010?count=3
